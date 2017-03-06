@@ -1,119 +1,98 @@
-.navbar {
-    margin-bottom: 0;
+/* Características da Navbar */
+.navbar-default {
+    font-size: 25px;
+    font-weight: bold;
     background-color: white;
-    border: 0;
-    font-size: 20px; 
-	-webkit-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.75);
-	-moz-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.75);
-	box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.75);
-	min-height: 60px;
-	font-family: 'Amatic SC', cursive; 
-	letter-spacing: 1px;
-	font-weight: bold;
+    border-width: 0px;
+    border-radius: 0px;
+	-webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75) !important;
+	   -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75) !important;
+	        box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75) !important;
+	font-family: 'Amatic SC', cursive;
+    min-height: 60px;
 }
-.navbar li a{
-	line-height: 30px;
-}
-.navbar-brand {
-    padding: 0px;
+
+/* Posicionamento do Logo */
+.navbar-brand > img {
     height: 60px;
-}
-.navbar-brand>img {
-    height: 100%;
-    padding: 0px 0px 0px 7px;
-    width: auto;
-}
-.navbar-toggle {
-    margin: 13px 10px 0 0;
+    margin-top: -15px;
 }
 
-/* Centraliza a logo quando a janela é redimensionada */
-@media only screen and (max-width : 768px){
-	 .navbar-brand {
-	  padding: 0px;
-	  transform: translateX(-50%);
-	  left: 50%;
-	  position: absolute;
+/* Características dos Tópicos */
+.navbar-nav > li > a {
+    line-height: 31px;
+    background-color: white;
+}
+.navbar .navbar-nav > li > a:hover,
+.navbar .navbar-nav > li > a:focus {
+  color: #df6388;
+}
+.navbar .navbar-nav > .active > a,
+.navbar .navbar-nav > .active > a:hover,
+.navbar .navbar-nav > .active > a:focus {
+    color: white;
+    background-color: #df6388;
+}
+
+/* Características dos Tópicos do Dropdown */
+.dropdown-menu > li > a {
+    font-size: 20px;
+    font-weight: bold;
+}
+.dropdown-menu > li > a {
+    color: #777777;
+}
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+    color: #df6388;
+    background-color: white;
+}
+.navbar .navbar-nav > .open > a,
+.navbar .navbar-nav > .open > a:hover,
+.navbar .navbar-nav > .open > a:focus {
+    color: #df6388;
+    background-color: white;
+}
+
+/* Características do Toggle */
+@media (max-width: 1200px){
+    .navbar {
+        font-size: 20px;
+    }
+}
+@media (max-width: 1000px){
+    .navbar {
+        font-size: 15px;
+    }
+}
+@media (max-width: 768px){
+    .navbar {
+        font-size: 25px;
+    }
+    .navbar-brand {
+        transform: translateX(-50%);
+        left: 50%;
+        position: absolute;
 	}
-	.navbar-brand>img {
-	  height: 100%;
-	  width: auto;
-	}
-}
-/* Ao atingir uma largura de <= 1199px, o menu "sanduiche" aparece, suprimindo os itens da barra original */
-@media (max-width: 1200px) {
-    .navbar-header {
-        float: none;
+    .navbar .navbar-collapse {
+        margin-top: 5.4px;
+        background-color: white;
+        text-align: center;
     }
-    .navbar-left,.navbar-right {
-        float: none !important;
+    .navbar .navbar-header .navbar-toggle {
+        margin-top: 13.2px;
     }
-    .navbar-toggle {
-        display: block;
+    .navbar .navbar-nav .open .dropdown-menu > li > a {
+        text-align: center;
     }
-    .navbar-collapse {
-        border-top: 1px solid transparent;
-        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    .navbar .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: #df6388;
     }
-    .navbar-fixed-top {
-        top: 0;
-        border-width: 0 0 1px;
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+        color: white;
+        background-color: #df6388;
     }
-    .navbar-collapse.collapse {
-        display: none!important;
-    }
-    .navbar-nav {
-        float: none!important;
-        margin-top: 7.5px;
-    }
-    .navbar-nav>li {
-        float: none;
-    }
-    .navbar-nav>li>a {
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }
-    .collapse.in{
-        display:block !important;
-    }
-}
-
-/* Add a black color to all navbar links */
-.navbar li a, .navbar .navbar-brand { 
-    color: black;
-}
-
-/* On hover, the links will turn deeppink */
-.navbar-nav li a:hover {
-    color: deeppink !important;
-}
-
-/* The active link */
-.navbar-nav li.active a {
-    color: black !important;
-}
-
-/* Remove border color from the collapsible button */
-.navbar-default .navbar-toggle {
-    border-color: transparent;
-}
-
-/* Dropdown */
-.open .dropdown-toggle {
-    color: deeppink !important;
-}
-.open .dropdown-toggle:hover {
-    color: deeppink !important;
-}
-
-/* Dropdown links */
-.dropdown-menu li a {
-    color: #000 !important;
-	letter-spacing: 0px;
-}
-
-/* On hover, the dropdown links will turn white w/ deeppink */
-.dropdown-menu li a:hover {
-	color: white !important;
-    background-color: deeppink!important;
 }

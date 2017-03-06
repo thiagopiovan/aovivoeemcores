@@ -1,0 +1,19 @@
+body{
+    background-image: url(../imagens/swirl_pattern.png);
+}
+
+.volta_topo{
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-image: url(../imagens/arrow.png);
+    background-color: #009DC2;
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+    box-shadow: 0px 2px 7px 0px rgba(0,0,0,0.75);
+    z-index: 999;
+}
