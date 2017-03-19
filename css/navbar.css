@@ -5,9 +5,9 @@
     background-color: white;
     border-width: 0px;
     border-radius: 0px;
-	-webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75) !important;
-	   -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75) !important;
-	        box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75) !important;
+	-webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
 	font-family: 'Amatic SC', cursive;
     min-height: 60px;
 }
@@ -30,8 +30,8 @@
 .navbar .navbar-nav > .active > a,
 .navbar .navbar-nav > .active > a:hover,
 .navbar .navbar-nav > .active > a:focus {
-    color: white;
-    background-color: #df6388;
+    color: white !important;
+    background-color: #df6388 !important;
 }
 
 /* Características dos Tópicos do Dropdown */
@@ -89,10 +89,10 @@
     .navbar .navbar-nav .open .dropdown-menu > li > a:focus {
         color: #df6388;
     }
-    .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+    /*.navbar-default .navbar-nav .open .dropdown-menu > .active > a,
     .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
     .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
         color: white;
         background-color: #df6388;
-    }
+    }*/
 }

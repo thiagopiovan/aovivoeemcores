@@ -35,10 +35,10 @@
         
         <!-- CSS -->
         <link href="css/global.css" rel="stylesheet">
+        <link href="css/inicio.css" rel="stylesheet">
         <link href="css/navbar.css" rel="stylesheet">
-        
-        <!-- JavaScript -->
-        <!--<script src="js/aovivo.js"></script>-->
+        <link href="css/carousel.css" rel="stylesheet">
+        <link href="css/circulos.css" rel="stylesheet">
     </head>
     <body>
         <!-- Navbar -->
@@ -97,8 +97,88 @@
             </div>
         </nav>
         
+        <div class="container global">
+            
+            <!-- Carousel -->
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <a href="participe.html"><img src="imagens/slide1A.png"></a>
+                    </div>
+                    <div class="item">
+                        <a href="colabore.html"><img src="imagens/slide2A.png"></a>
+                    </div>
+                    <div class="item">
+                        <a href="organizacao.html"><img src="imagens/slide3A.png"></a>
+                    </div>
+                    <div class="item">
+                        <a href="noticias.html"><img src="imagens/slide4A.png"></a>
+                    </div>
+                </div>
+                <ul class="nav nav-pills">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"><a href="participe.html">PARTICIPE</a></li>
+                    <li data-target="#myCarousel" data-slide-to="1"><a href="colabore.html">COLABORE</a></li>
+                    <li data-target="#myCarousel" data-slide-to="2"><a href="organizacao.html">ORGANIZAÇÃO</a></li>
+                    <li data-target="#myCarousel" data-slide-to="3"><a href="noticias.html">NOTÍCIAS</a></li>
+                </ul>
+            </div>
+            
+            <!-- Divs Circulares -->
+            <div class="row circulos">
+                <div class="col-md-3 col-sm-6">
+                    <div class="ih-item circle1 effect bottom_to_top">
+                        <a href="participe.html">
+                            <div class="img img-responsive"><img src="imagens/circulo1.png" alt="img"></div>
+                            <div class="info">
+                                <div class="info-back">
+                                    <h4>Saiba como participar !</h4>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="ih-item circle2 effect bottom_to_top">
+                        <a href="colabore.html">
+                            <div class="img img-responsive"><img src="imagens/circulo2.png" alt="img"></div>
+                            <div class="info">
+                                <div class="info-back">
+                                    <h4>Ajude o projeto a crescer !</h4>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="ih-item circle3 effect bottom_to_top">
+                        <a href="historia.html">
+                            <div class="img img-responsive"><img src="imagens/circulo3.png" alt="img"></div>
+                            <div class="info">
+                                <div class="info-back">
+                                    <h4>Conheça nossa história !</h4>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="ih-item circle4 effect bottom_to_top">
+                        <a href="participe.html">
+                            <div class="img img-responsive"><img src="imagens/circulo4.png" alt="img"></div>
+                            <div class="info">
+                                <div class="info-back">
+                                    <h4>Descubra nossas novidades !</h4>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
         <!-- jQuery -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
+        <script src="js/carousel.js"></script>
     </body>
 </html>

@@ -2,6 +2,15 @@ body{
     background-image: url(../imagens/swirl_pattern.png);
 }
 
+.global {
+    margin-top: 60px;
+    background-color: white;
+    padding: 0px;
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
+}
+
 .volta_topo{
     display: none;
     position: fixed;
@@ -11,7 +20,7 @@ body{
     width: 50px;
     border-radius: 50%;
     background-image: url(../imagens/arrow.png);
-    background-color: #009DC2;
+    background-color: #009dc2;
     background-size: 50px 50px;
     background-repeat: no-repeat;
     box-shadow: 0px 2px 7px 0px rgba(0,0,0,0.75);

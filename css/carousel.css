@@ -1,0 +1,39 @@
+.nav-pills > li+li {
+    margin-left: 0px;
+}
+
+.nav-pills > li {
+    width: 25%;
+    text-align: center;
+}
+
+.nav-pills > li > a {
+    margin: 0px;
+    table-layout: fixed;
+    border-radius: 0px;
+    text-align: center;
+    background-color: #eee;
+    font-family: 'Amatic SC', cursive;
+    font-size: 25px;
+    color: #777777;
+    font-weight: bold;
+}
+.nav-pills > li[data-slide-to="0"].active a {
+    background-color: #01163a;
+}
+.nav-pills > li[data-slide-to="1"].active a {
+    background-color: #df6388;
+}
+.nav-pills > li[data-slide-to="2"].active a {
+    background-color: #f79451;
+}
+.nav-pills > li[data-slide-to="3"].active a {
+    background-color: #009dc2;
+}
+
+@media (max-width: 768px){
+    .nav-pills > li {
+        width: 100%;
+        float: left;
+    }
+}
