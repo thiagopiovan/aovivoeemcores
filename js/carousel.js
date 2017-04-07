@@ -1,7 +1,9 @@
 $(document).ready(function() {
+        
     $('#myCarousel').carousel({
-        interval: 3000
+        interval: 4000
     });
+    
     var clickEvent = false;
     $('#myCarousel').on('click', '.nav a', function() {
         clickEvent = true;

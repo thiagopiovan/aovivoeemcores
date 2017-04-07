@@ -18,15 +18,19 @@
     color: #777777;
     font-weight: bold;
 }
+
 .nav-pills > li[data-slide-to="0"].active a {
     background-color: #01163a;
 }
+
 .nav-pills > li[data-slide-to="1"].active a {
     background-color: #df6388;
 }
+
 .nav-pills > li[data-slide-to="2"].active a {
     background-color: #f79451;
 }
+
 .nav-pills > li[data-slide-to="3"].active a {
     background-color: #009dc2;
 }

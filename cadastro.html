@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         
-        <title>Ao Vivo | História</title>
+        <title>Ao Vivo | Cadastro</title>
         
 		<!-- Favicons -->
 		<link rel="apple-touch-icon" sizes="57x57" href="imagens/favicons/apple-icon-57x57.png">
@@ -27,8 +27,8 @@
 		<meta name="theme-color" content="#ffffff">
         
         <!-- Fontes -->
-      	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+      	<link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
         
         <!-- Bootstrap -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -37,6 +37,7 @@
         <link href="css/global.css" rel="stylesheet">
         <link href="css/cadastro.css" rel="stylesheet">
         <link href="css/navbar.css" rel="stylesheet">
+        <link href="css/rodape.css" rel="stylesheet">
     </head>
     <body>
         <!-- Navbar -->
@@ -88,15 +89,232 @@
                     
                     <!-- Right Align-->
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#" id="login"><span class="glyphicon glyphicon-log-in"></span> LOGIN</a></li>
-                        <li class="active"><a href="cadastro.html"><span class="glyphicon glyphicon-user"></span> CADASTRO</a></li>
+                        <li><a href="#" id="login" data-toggle="modal" data-target="#aviso"><span class="glyphicon glyphicon-log-in"></span> LOGIN</a></li>
+                        <li><a href="cadastro.html"  data-toggle="modal" data-target="#aviso"><span class="glyphicon glyphicon-user"></span> CADASTRO</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
         
+        <!-- Modal -->
+        <div id="aviso" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+                <img src="imagens/aviso.png">
+            </div>
+        </div>
+        
+        <!-- Conteúdo -->
+        <div class="container global">
+        </div>
+            
+        <!-- Rodapé -->
+        <div class="container-fluid rodape">
+            <div class="rodape1">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-4">
+                            <img src="imagens/rodape.png" alt="Logo Rodapé" class="img-responsive logo_rodape">
+                        </div>
+                        <div class="col-xs-12 col-sm-8">
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-4 altura">
+                                    <div class="row">
+                                        <div class="titulos_rodape1">
+                                            Patrocinadores
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="carousel slide multi-item-carousel" id="myCarousel2">
+                                            <div class="carousel-inner rodape_carousel">
+                                                <div class="item active">
+                                                    <div class="col-xs-4 logos">
+                                                        <a href="#"><img src="imagens/tilibra.png" class="img-responsive center-block"></a>
+                                                    </div>
+                                                </div>
+                                                <div class="item">
+                                                    <div class="col-xs-4 logos">
+                                                        <a href="#"><img src="imagens/proex.png" class="img-responsive center-block"></a>
+                                                    </div>
+                                                </div>
+                                                <div class="item">
+                                                    <div class="col-xs-4 logos">
+                                                        <a href="#"><img src="imagens/copical.png" class="img-responsive center-block"></a>
+                                                    </div>
+                                                </div>
+                                                <div class="item">
+                                                    <div class="col-xs-4 logos">
+                                                        <a href="#"><img src="imagens/palamin.png" class="img-responsive center-block"></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <a class="left carousel-control" href="#myCarousel2" role="button" data-slide="prev">
+                                                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                            </a>
+                                            <a class="right carousel-control" href="#myCarousel2" role="button" data-slide="next">
+                                                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-sm-4 altura ajuste1">
+                                    <div class="row">
+                                        <div class="titulos_rodape1">
+                                            Parceiros
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="carousel slide multi-item-carousel" id="myCarousel3">
+                                            <div class="carousel-inner rodape_carousel">
+                                                <div class="item active">
+                                                    <div class="col-xs-4 logos">
+                                                        <a href="#"><img src="imagens/dijr.png" class="img-responsive center-block"></a>
+                                                    </div>
+                                                </div>
+                                                <div class="item">
+                                                    <div class="col-xs-4 logos">
+                                                        <a href="#"><img src="imagens/dafae.png" class="img-responsive center-block"></a>
+                                                    </div>
+                                                </div>
+                                                <div class="item">
+                                                    <div class="col-xs-4 logos">
+                                                        <a href="#"><img src="imagens/semeng.png" class="img-responsive center-block"></a>
+                                                    </div>
+                                                </div>
+                                                <div class="item">
+                                                    <div class="col-xs-4 logos">
+                                                        <a href="#"><img src="imagens/enactus.png" class="img-responsive center-block"></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <a class="left carousel-control" href="#myCarousel3" role="button" data-slide="prev">
+                                                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                            </a>
+                                            <a class="right carousel-control" href="#myCarousel3" role="button" data-slide="next">
+                                                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-sm-4 altura ajuste2">
+                                    <div class="row">
+                                        <div class="titulos_rodape1">
+                                            Apoiadores
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="carousel slide multi-item-carousel" id="myCarousel4">
+                                            <div class="carousel-inner rodape_carousel">
+                                                <div class="item active">
+                                                    <div class="col-xs-4 logos">
+                                                        <a href="#"><img src="imagens/feb.png" class="img-responsive center-block"></a>
+                                                    </div>
+                                                </div>
+                                                <div class="item">
+                                                    <div class="col-xs-4 logos">
+                                                        <a href="#"><img src="imagens/faac.png" class="img-responsive center-block"></a>
+                                                    </div>
+                                                </div>
+                                                <div class="item">
+                                                    <div class="col-xs-4 logos">
+                                                        <a href="#"><img src="imagens/fc.png" class="img-responsive center-block"></a>
+                                                    </div>
+                                                </div>
+                                                <div class="item">
+                                                    <div class="col-xs-4 logos">
+                                                        <a href="#"><img src="imagens/unesp.png" class="img-responsive center-block"></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <a class="left carousel-control" href="#myCarousel4" role="button" data-slide="prev">
+                                                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                            </a>
+                                            <a class="right carousel-control" href="#myCarousel4" role="button" data-slide="next">
+                                                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="rodape2">
+                <div class="container">
+                    <div class="row mapa">
+                        <div class="col-md-6">
+                            <div class="row linhas">
+                                <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3 divisor margem">
+                                    <a href="index.html">Início</a>
+                                </div>
+                                <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3 divisor margem">
+                                    <a href="historia.html">História</a>
+                                </div>
+                                <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3 divisor">
+                                    <a href="organizacao.html">Organização</a>
+                                    <div class="itens">
+                                        <a href="organizacao.html#mvv">Missão, Visão e Valores</a>
+                                        <br><a href="organizacao.html#estrutura_organizacional">Estrutura Organizacional</a>
+                                        <br><a href="organizacao.html#gestao_atual">Gestão Atual</a>
+                                        <br><a href="organizacao.html#expansao">Expansão</a> 
+                                    </div>
+                                </div>
+                                <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3 divisor">
+                                    <a href="participe.html">Participe</a>
+                                    <div class="itens">
+                                        <a href="participe.html#proxima_acao">Próxima Ação</a>
+                                        <br><a href="participe.html#inscricoes">Inscrições</a>
+                                        <br><a href="participe.html#faq">Perguntas Frequentes</a>
+                                        <br><a href="participe.html#escolas">Escolas</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="row linhas">
+                                <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3 divisor margem">
+                                    <a href="historia.html">Notícias</a>
+                                </div>
+                                <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3 divisor margem">
+                                    <a href="colabore.html">Colabore</a>
+                                    <div class="itens">
+                                        <a href="colabore.html#produtos">Produtos</a>
+                                        <br><a href="colabore.html#doacoes">Doações</a>
+                                        <br><a href="colabore.html#nova_sede">Nova Sede</a>
+                                    </div>
+                                </div>
+                                <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3 divisor">
+                                    <a href="contato.html">Contato</a>
+                                </div>
+                                <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3 redes_sociais">
+                                    <a href="https://www.fb.com/aovivoeemcores"><img src="imagens/facebook.png" class="icones"></a>
+                                    <a href="https://www.flickr.com/photos/aovivoeemcores/"><img src="imagens/flickr.png" class="icones"></a>
+                                    <a href="https://www.instagram.com/aovivoeemcores/"><img src="imagens/instagram.png" class="icones"></a>
+                                    <a href="https://www.youtube.com/user/aovivoeemcoresbauru/"><img src="imagens/youtube.png" class="icones"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Assinatura -->
+            <div class="assinatura">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                            Ao Vivo e em Cores - © 2017
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="volta_topo"></a>
+        
         <!-- jQuery -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
+        <script src="js/global.js"></script>
+        <script src="js/rodape.js"></script>
     </body>
 </html>
