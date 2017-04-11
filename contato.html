@@ -38,6 +38,7 @@
         <link href="css/contato.css" rel="stylesheet">
         <link href="css/navbar.css" rel="stylesheet">
         <link href="css/rodape.css" rel="stylesheet">
+        <link href="css/contato.css" rel="stylesheet">
     </head>
     <body>
         <!-- Navbar -->
@@ -55,12 +56,12 @@
                 <!-- Menu -->
                 <div id="navbar" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                        <li><a href="index.html">INÍCIO</a></li>
-                        <li><a href="historia.html">HISTÓRIA</a></li>
+                        <li><a href="index.html">Início</a></li>
+                        <li><a href="historia.html">História</a></li>
                       
                         <!-- Dropdowm -->
                         <li class="dropdown">
-                            <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ORGANIZAÇÃO</a>
+                            <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Organização</a>
                             <ul class="dropdown-menu">
                                 <li><a href="organizacao.html#mvv">Missão, Visão e Valores</a></li>
                                 <li><a href="organizacao.html#estrutura_organizacional">Estrutura Organizacional</a></li>
@@ -69,28 +70,29 @@
                             </ul>
                         </li>
                         <li class="dropdown">
-                            <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">PARTICIPE</a>
+                            <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Participe</a>
                             <ul class="dropdown-menu">
-                                <li><a href="participe.html#proxima_acao">Próxima Ação</a></li>
-                                <li><a href="participe.html#inscricoes">Inscrições</a></li>
-                                <li><a href="participe.html#faq">Perguntas Frequentes</a></li>
+                                <li><a href="participe.html">Próxima Ação</a></li>
+                                <li><a href="participe.html">Inscrições</a></li>
+                                <li><a href="participe.html">Perguntas Frequentes</a></li>
                             </ul>
                         </li>  
-                        <li><a href="noticias.html">NOTÍCIAS</a></li>
+                        <li><a href="noticias.html">Notícias</a></li>
                         <li class="dropdown">
-                            <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">COLABORE</a>
+                            <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Colabore</a>
                             <ul class="dropdown-menu">
                                 <li><a href="colabore.html#produtos">Produtos</a></li>
                                 <li><a href="colabore.html#doacoes">Doações</a></li>
+                                <li><a href="colabore.html#nova_sede">Nova Sede</a></li>
                             </ul>
                         </li>
-                        <li class="active"><a href="contato.html">CONTATO</a></li>
+                        <li class="active"><a href="contato.html">Contato</a></li>
                     </ul>
                     
                     <!-- Right Align-->
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#" id="login" data-toggle="modal" data-target="#aviso"><span class="glyphicon glyphicon-log-in"></span> LOGIN</a></li>
-                        <li><a href="cadastro.html"  data-toggle="modal" data-target="#aviso"><span class="glyphicon glyphicon-user"></span> CADASTRO</a></li>
+                        <li><a href="#" id="login" data-toggle="modal" data-target="#aviso"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                        <li><a href="cadastro.html"  data-toggle="modal" data-target="#aviso"><span class="glyphicon glyphicon-user"></span> Cadastro</a></li>
                     </ul>
                 </div>
             </div>
@@ -105,8 +107,65 @@
                 
         <!-- Conteúdo -->
         <div class="container global">
-        </div>
+            <div class="row-fluid">
+                <div class="col-xs-12 titulos">
+                    <div class="row vcenter">
+                        <div class="col-xs-4 col-sm-5 titulo-esquerda">
+                            <div class="titulo-linha"></div>    
+                        </div>
+                        <div class="col-xs-4 col-sm-2 titulo-meio">
+                            <div class="titulo-pagina">Contato</div>
+                        </div>
+                        <div class="col-xs-4 col-sm-5 titulo-direita">
+                            <div class="titulo-linha"></div>    
+                        </div>
+                    </div>
+                </div>
+            </div>
             
+            <!-- Formulário de Contato -->
+            <div class="form-contato">
+              <form id="contato" method="post" action="php/contato.php">
+                  <div class="col-xs-12 col-sm-6">
+                      <input type="text" name="nome" id="nome" required="required" class="form-control" placeholder="Nome"/>
+                      <input type="email" name="email" id="email" required="required" class="form-control" placeholder="E-mail"/>
+                      <input type="text" name="assunto" id="assunto" required="required" class="form-control" placeholder="Assunto"/>
+                  </div>
+                  <div class="col-xs-12 col-sm-6">
+                      <textarea name="mensagem" id="mensagem" class="form-control"  placeholder="Mensagem"></textarea>
+                  </div>
+                  <div class="col-xs-12 text-center enviar">
+                      <button type="submit" id="submit" name="submit" class="btn">Enviar</button>
+                  </div>
+              </form>
+            </div>
+            
+            <!-- Linha -->
+            <div class="row-fluid">
+                <div class="col-xs-12">
+                    <hr>
+                </div>
+            </div>
+            
+            <!-- Informações de Contato -->
+            <div class="row-fluid tabela">
+                <div class="col-xs-12 col-sm-6 info">
+                    <p><b>Endereço</b></p>
+                    <p>Av. Eng. Luiz Edmundo Carrijo Coube, 14-01</p><br>
+                    <p><b>Telefone</b></p>
+                    <p>(14) 3103-6000 (6411)</p><br>
+                    <p><b>E-mail</b></p>
+                    <p>aovivoeemcores@dafae.com</p>
+                </div>
+                <div class="col-xs-12 col-sm-6">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3690.108388378126!2d-49.033590285745255!3d-22.34953588529801!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94bf5dfaf5d7f787%3A0xb4f31041c635cc77!2sAv.+Eng.+Lu%C3%ADs+Edmundo+Carrijo+Coube%2C+14-01+-+Jardim+Marab%C3%A1%2C+Bauru+-+SP%2C+17033-360!5e0!3m2!1spt-BR!2sbr!4v1489926171101" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
         <!-- Rodapé -->
         <div class="container-fluid rodape">
             <div class="rodape1">

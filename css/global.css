@@ -1,5 +1,6 @@
 body{
     background-image: url(../imagens/swirl_pattern.png);
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 
 .global {
@@ -29,5 +30,41 @@ body{
 
 p {
     font-size: 20px;
-    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.vcenter {
+    display: flex;
+    align-items: center;
+}
+
+.titulo-pagina {
+    font-family: 'Amatic SC', cursive;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    background-color: #df6388;
+    padding: 10px;
+}
+
+.titulo-linha {
+    background: #df6388;
+    height: 3px;
+}
+
+.titulos {
+    padding: 15px;
+}
+
+.titulo-esquerda {
+    padding-right: 0px;
+}
+
+.titulo-direita {
+    padding-left: 0px;
+}
+
+.titulo-meio {
+    padding-left: 0px;
+    padding-right: 0px;
 }

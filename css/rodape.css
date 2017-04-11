@@ -29,6 +29,9 @@
 }
 
 @media all and (max-width: 768px) {
+    .logo_rodape {
+        padding-left: 10%;
+    }
     #myCarousel2, #myCarousel3, #myCarousel4 {
         margin-left: auto;
         margin-right: auto;
@@ -98,7 +101,6 @@
 .logos img {
     background-color: #99d7e6;
     padding: 2px;
-    max-width: 50px;
 }
 
 @media all and (min-width: 768px){
