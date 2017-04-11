@@ -47,6 +47,12 @@ p {
     padding: 10px;
 }
 
+@media all and (max-width: 500px) {
+    .titulo-pagina {
+        font-size: 20px;
+    }
+}
+
 .titulo-linha {
     background: #df6388;
     height: 3px;

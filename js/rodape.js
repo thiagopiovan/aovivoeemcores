@@ -1,7 +1,7 @@
 altura = function() {
     var altura = $(".logo_rodape").height();
     $(".altura").height(altura);
-}
+};
 
 $(document).ready(function() {
     altura();

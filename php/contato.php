@@ -9,5 +9,5 @@ $headers .= 'From: '.$_POST['email'];
 
 mail($to, $subject, $message, $headers);
 
-header("Location: http://www.aovivoeemcores.com.br/previa/contato.html");
+header("Location: http://www.aovivoeemcores.com.br/contato.html");
 ?>
