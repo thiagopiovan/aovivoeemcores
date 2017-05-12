@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title>Ao Vivo | Sede</title>
+    </head>
+    <body>
+        <h1>Doação &ge; R$100,00</h1>
+        <form id="sede" method="post" action="php/sede.php?n=1">
+            <input type="text" name="nome" id="nome" required="required" class="form-control" placeholder="Nome"/>
+            <input type="email" name="email" id="email" required="required" class="form-control" placeholder="E-mail"/>
+            <input type="valor" name="valor" id="valor" required="required" class="form-control" placeholder="Valor"/>
+            <input type="text" name="marca" id="marca" required="required" class="form-control" placeholder="Marca"/>
+            <button type="submit" id="submit" name="submit" class="btn">Enviar</button>
+        </form>
+        <h1>Doação &lt; R$100,00</h1>
+        <form id="sede" method="post" action="php/sede.php?n=2">
+            <input type="text" name="nome" id="nome" required="required" class="form-control" placeholder="Nome"/>
+            <input type="email" name="email" id="email" required="required" class="form-control" placeholder="E-mail"/>
+            <input type="valor" name="valor" id="valor" required="required" class="form-control" placeholder="Valor"/>
+            <button type="submit" id="submit" name="submit" class="btn">Enviar</button>
+        </form>
+        <h1>Empresa</h1>
+        <form id="sede" method="post" action="php/sede.php?n=3">
+            <input type="text" name="nome" id="nome" required="required" class="form-control" placeholder="Nome"/>
+            <input type="email" name="email" id="email" required="required" class="form-control" placeholder="E-mail"/>
+            <input type="valor" name="valor" id="valor" required="required" class="form-control" placeholder="Valor"/>
+            <input type="text" name="marca" id="marca" required="required" class="form-control" placeholder="Marca"/>
+            <button type="submit" id="submit" name="submit" class="btn">Enviar</button>
+        </form>
+    </body>
+</html>

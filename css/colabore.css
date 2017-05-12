@@ -1,0 +1,16 @@
+.progress {
+    margin-bottom: 0px;
+    line-height: 20px;
+    margin-top: 12.5px;
+}
+
+@media all and (min-width: 768px) {
+    .tabela {
+        float: none;
+    }
+}
+
+.texto_sede {
+    padding-left: 0px;
+    padding-right: 0px;
+}

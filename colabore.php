@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         
-        <title>Ao Vivo | Home</title>
+        <title>Ao Vivo | Colabore</title>
         
 		<!-- Favicons -->
 		<link rel="apple-touch-icon" sizes="57x57" href="imagens/favicons/apple-icon-57x57.png">
@@ -35,15 +35,14 @@
         
         <!-- CSS -->
         <link href="css/global.css" rel="stylesheet">
-        <link href="css/inicio.css" rel="stylesheet">
+        <link href="css/colabore.css" rel="stylesheet">
         <link href="css/navbar.css" rel="stylesheet">
-        <link href="css/carousel.css" rel="stylesheet">
-        <link href="css/circulos.css" rel="stylesheet">
-        <link href="css/video&depoimento.css" rel="stylesheet">
-        <link href="css/newsletter.css" rel="stylesheet">
         <link href="css/rodape.css" rel="stylesheet">
     </head>
     <body>
+        <?php
+            include "php/dinheiro.php";
+        ?>
         <!-- Navbar -->
         <nav class="navbar navbar-default navbar-fixed-top">
             <div class="container">
@@ -54,12 +53,12 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#"><img src="imagens/logo.png" alt="Ao Vivo e em Cores"></a>
+                    <a class="navbar-brand" href="index.html"><img src="imagens/logo.png" alt="Ao Vivo e em Cores"></a>
                 </div>
                 <!-- Menu -->
                 <div id="navbar" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="index.html">Início</a></li>
+                        <li><a href="index.php">Início</a></li>
                         <li><a href="historia.html">História</a></li>
                       
                         <!-- Dropdowm -->
@@ -81,7 +80,7 @@
                             </ul>
                         </li>  
                         <li><a href="noticias.html">Notícias</a></li>
-                        <li class="dropdown">
+                        <li class="active dropdown">
                             <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Colabore</a>
                             <ul class="dropdown-menu">
                                 <li><a href="colabore.php#produtos">Produtos</a></li>
@@ -110,141 +109,57 @@
         
         <!-- Conteúdo -->
         <div class="container global">
-            
-            <!-- Carousel -->
-            <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="item active">
-                        <a href="participe.html"><img src="imagens/slide1A.png" class="img-responsive"></a>
+            <div class="col-xs-12 titulos">
+                <div class="row vcenter">
+                    <div class="col-xs-5 col-sm-3 titulo-esquerda">
+                        <div class="titulo-pagina">Nova Sede</div>
                     </div>
-                    <div class="item">
-                        <a href="colabore.html"><img src="imagens/slide2A.png" class="img-responsive"></a>
-                    </div>
-                    <div class="item">
-                        <a href="organizacao.html"><img src="imagens/slide3A.png" class="img-responsive"></a>
-                    </div>
-                    <div class="item">
-                        <a href="noticias.html"><img src="imagens/slide4A.png" class="img-responsive"></a>
+                    <div class="col-xs-7 col-sm-9 titulo-direita">
+                        <div class="titulo-linha"></div>   
                     </div>
                 </div>
-                <ul class="nav nav-pills">
-                    <li data-target="#myCarousel" data-slide-to="0" class="active"><a href="participe.html">Participe</a></li>
-                    <li data-target="#myCarousel" data-slide-to="1"><a href="colabore.html">Colabore</a></li>
-                    <li data-target="#myCarousel" data-slide-to="2"><a href="organizacao.html">Organização</a></li>
-                    <li data-target="#myCarousel" data-slide-to="3"><a href="noticias.html">Notícias</a></li>
-                </ul>
             </div>
-                
-            <div class="row-fluid">
-                <!-- Divs Circulares -->
-                <div class="col-md-3 col-sm-6">
-                    <div class="ih-item circle1 effect bottom_to_top">
-                        <a href="participe.html">
-                            <div class="img img-responsive"><img src="imagens/circulo1.png" alt="img"></div>
-                            <div class="info">
-                                <div class="info-back">
-                                    <h4>Saiba como participar !</h4>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
+            <div class="row-fluid tabela_mae">
+                <div class="col-xs-12 col-sm-6 tabela_filho pb">
+                    <img src="imagens/sede.png" class="img-responsive center-block sombra"/>
                 </div>
-                <div class="col-md-3 col-sm-6">
-                    <div class="ih-item circle2 effect bottom_to_top">
-                        <a href="colabore.html">
-                            <div class="img img-responsive"><img src="imagens/circulo2.png" alt="img"></div>
-                            <div class="info">
-                                <div class="info-back">
-                                    <h4>Ajude o projeto a crescer !</h4>
-                                </div>
-                            </div>
-                        </a>
+                <div class="col-xs-12 col-sm-6 tabela_filho pb texto_sede">
+                    <div class="col-xs-12 text-justify">
+                        <p>&emsp;&emsp;O Projeto Social Ao Vivo e em Cores está com um projeto executivo de construção de uma sede no Campus da Unesp em Bauru. O terreno inclusive já foi aprovado pelas autoridades do Campus, assim, membros da organização estão finalizando o projeto e captando recursos.</p>
+                        <p>&emsp;&emsp;Você pode contribuir doando para nós através do botão do pagseguro abaixo. Haverá um logo do nosso projeto na fachada composto pelo nome das pessoas que doaram R$100,00 ou mais. Sinta-se parte desse empreendimento e ajude-nos a atingir a meta de R$25.000,00 para construir mais esse sonho conosco!</p>
                     </div>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <div class="ih-item circle3 effect bottom_to_top">
-                        <a href="historia.html">
-                            <div class="img img-responsive"><img src="imagens/circulo3.png" alt="img"></div>
-                            <div class="info">
-                                <div class="info-back">
-                                    <h4>Conheça nossa história !</h4>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <div class="ih-item circle4 effect bottom_to_top">
-                        <a href="participe.html">
-                            <div class="img img-responsive"><img src="imagens/circulo4.png" alt="img"></div>
-                            <div class="info">
-                                <div class="info-back">
-                                    <h4>Descubra nossas novidades !</h4>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            
-                <!-- Vídeo & Depoimento-->
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 vd_margem">
-                    <div class="titulo-video">Vídeo</div>
-                    <div class="conteudo-video vd">
-                        <div class="embed-responsive embed-responsive-16by9 video">
-                            <iframe allowFullScreen="allowFullScreen"  src="http://www.youtube.com/embed/mde091fsQLQ"></iframe>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 vd_margem">
-                    <div class="titulo-depoimento">Depoimento</div>
-                    <div class="conteudo-depoimento vd">
-                        <p>“O Ao Vivo e em Cores não se faz de um simples voluntariado, nem tão somente de uma equipe de revitalizadores que pintam muros, mas da ânsia de conferir cor a uma realidade que, por vezes cinzenta, faz esquecer do quão bela pode ser a vida quando se trabalha em equipe, buscando fazer o bem e construir um futuro melhor.”</p>
-                        <div class="row">
-                            <div class="col-xs-12 col-sm-5 imagem-depoimento">
-                                <img src="imagens/otavio.png" class="img-circle img-responsive pull-right">
-                            </div>
-                            <div class="col-xs-12 col-sm-7">
-                                <div class="pull-left pessoa-depoimento">
-                                    <p><b>Otávio José Dezem Bertozzi Junior</b>
-                                    <br>Ex-Membro da Organização</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- Newsletter -->
-                <div class="col-xs-12">
-                    <div class="titulo-newsletter">Newsletter</div>
-                    <div class="conteudo-newsletter">
-                        <div class="row text-center">
-                            <form id="newsletter" method="post" action="php/newsletter.php">
-                                <div class="col-xs-12 col-sm-2 texto-newsletter">
-                                Inscreva-se!
-                                </div>
-                                <div class="col-xs-12 col-sm-4">
-                                    <input type="text" name="nome" id="nome" required="required" class="form-control" placeholder="Nome"/>
-                                </div>
-                                <div class="col-xs-12 col-sm-4">
-                                    <input type="email" name="email" id="email" required="required" class="form-control" placeholder="E-mail"/>
-                                </div>
-                                <div class="col-xs-12 col-sm-2">
-                                    <button type="submit" id="submit" name="submit" class="btn">Cadastrar</button>
-                                </div>
+                    <div class="col-xs-12">
+                        <div class="col-xs-12 col-sm-5 text-center">
+                            <!-- INICIO FORMULARIO BOTAO PAGSEGURO -->
+                            <form target="_blank" action="https://pagseguro.uol.com.br/checkout/v2/donation.html" method="post">
+                                <!-- NÃO EDITE OS COMANDOS DAS LINHAS ABAIXO -->
+                                <input type="hidden" name="currency" value="BRL" />
+                                <input type="hidden" name="receiverEmail" value="aovivoeemcores@dafae.com" />
+                                <input type="hidden" name="iot" value="button" />
+                                <input type="image" src="https://stc.pagseguro.uol.com.br/public/img/botoes/doacoes/95x45-doar.gif" name="submit" alt="Pague com PagSeguro - é rápido, grátis e seguro!" />
                             </form>
+                            <!-- FINAL FORMULARIO BOTAO PAGSEGURO -->
+                        </div>
+                        <div class="col-xs-12 col-sm-7 barra">
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="<?php echo $atual ?>" aria-valuemin="0" aria-valuemax="100" style="width:<?php echo $atual ?>%">
+                                    <?php echo number_format($atual, 1, ",", "."); ?>%
+                                </div>
+                            </div>
+                            <div class="text-center">R$<?php echo number_format($total, 2, ",", "."); ?></div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        
+            
         <!-- Rodapé -->
         <div class="container-fluid rodape">
             <div class="rodape1">
                 <div class="container">
                     <div class="row">
                         <div class="col-xs-12 col-sm-4">
-                            <img src="imagens/rodape.png" alt="Logo Rodapé" class="logo_rodape img-responsive">
+                            <img src="imagens/rodape.png" alt="Logo Rodapé" class="img-responsive logo_rodape">
                         </div>
                         <div class="col-xs-12 col-sm-8">
                             <div class="row">
@@ -376,7 +291,7 @@
                         <div class="col-md-6">
                             <div class="row linhas">
                                 <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3 divisor margem">
-                                    <a href="index.html">Início</a>
+                                    <a href="index.php">Início</a>
                                 </div>
                                 <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3 divisor margem">
                                     <a href="historia.html">História</a>
@@ -445,9 +360,7 @@
         <!-- jQuery -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
-        <script src="js/carousel.js"></script>
         <script src="js/global.js"></script>
-        <script src="js/video&depoimento.js"></script>
         <script src="js/rodape.js"></script>
     </body>
 </html>

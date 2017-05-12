@@ -1,11 +1,18 @@
-altura = function() {
+/*global $ */
+
+function alturas() {
+    "use strict";
     var altura = $(".logo_rodape").height();
     $(".altura").height(altura);
+}
+
+window.onload = function () {
+    "use strict";
+    alturas();
 };
 
-$(document).ready(function() {
-    altura();
-    
+$(document).ready(function () {
+    "use strict";
     $('#myCarousel2').carousel({
         interval: 5000
     });
@@ -18,13 +25,13 @@ $(document).ready(function() {
         interval: 5000
     });
 
-    $('.multi-item-carousel .item').each(function(){
+    $('.multi-item-carousel .item').each(function () {
         var next = $(this).next();
         if (!next.length) {
             next = $(this).siblings(':first');
         }
         next.children(':first-child').clone().appendTo($(this));
-        if (next.next().length>0) {
+        if (next.next().length > 0) {
             next.next().children(':first-child').clone().appendTo($(this));
         } else {
             $(this).siblings(':first').children(':first-child').clone().appendTo($(this));
@@ -33,6 +40,7 @@ $(document).ready(function() {
     
 });
 
-$(window).resize(function() {
-    altura();
+$(window).resize(function () {
+    "use strict";
+    alturas();
 });

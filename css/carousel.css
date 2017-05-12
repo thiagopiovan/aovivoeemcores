@@ -41,3 +41,7 @@
         float: left;
     }
 }
+
+.carousel .img-responsive {
+    width: 100%;
+}
