@@ -88,12 +88,12 @@
                         <li class="dropdown">
                             <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Colabore</a>
                             <ul class="dropdown-menu">
-                                <li><a href="colabore.html#produtos">Produtos</a></li>
-                                <li><a href="colabore.html#doacoes">Doações</a></li>
-                                <li><a href="colabore.html#nova_sede">Nova Sede</a></li>
+                                <li><a href="colabore.php#produtos">Produtos</a></li>
+                                <li><a href="colabore.php#doacoes">Doações</a></li>
+                                <li><a href="colabore.php#nova_sede">Nova Sede</a></li>
                             </ul>
                         </li>
-                        <li><a href="contato.html">Contato</a></li>
+                        <li><a href="contato.php">Contato</a></li>
                     </ul>
                     
                     <!-- Right Align-->
@@ -122,7 +122,7 @@
                         <a href="participe.html"><img src="imagens/slide1A.png" class="img-responsive"></a>
                     </div>
                     <div class="item">
-                        <a href="colabore.html"><img src="imagens/slide2A.png" class="img-responsive"></a>
+                        <a href="colabore.php"><img src="imagens/slide2A.png" class="img-responsive"></a>
                     </div>
                     <div class="item">
                         <a href="organizacao.html"><img src="imagens/slide3A.png" class="img-responsive"></a>
@@ -133,7 +133,7 @@
                 </div>
                 <ul class="nav nav-pills">
                     <li data-target="#myCarousel" data-slide-to="0" class="active"><a href="participe.html">Participe</a></li>
-                    <li data-target="#myCarousel" data-slide-to="1"><a href="colabore.html">Colabore</a></li>
+                    <li data-target="#myCarousel" data-slide-to="1"><a href="colabore.php">Colabore</a></li>
                     <li data-target="#myCarousel" data-slide-to="2"><a href="organizacao.html">Organização</a></li>
                     <li data-target="#myCarousel" data-slide-to="3"><a href="noticias.html">Notícias</a></li>
                 </ul>
@@ -156,7 +156,7 @@
                 </div>
                 <div class="col-md-3 col-sm-6">
                     <div class="ih-item circle2 effect bottom_to_top sombra">
-                        <a href="colabore.html">
+                        <a href="colabore.php">
                             <div class="img img-responsive"><img src="imagens/circulo2.png" alt="img"></div>
                             <div class="info">
                                 <div class="info-back">
@@ -432,15 +432,15 @@
                                     <a href="noticias.html">Notícias</a>
                                 </div>
                                 <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3 divisor margem">
-                                    <a href="colabore.html">Colabore</a>
+                                    <a href="colabore.php">Colabore</a>
                                     <div class="itens">
-                                        <a href="colabore.html#produtos">Produtos</a>
-                                        <br><a href="colabore.html#doacoes">Doações</a>
-                                        <br><a href="colabore.html#nova_sede">Nova Sede</a>
+                                        <a href="colabore.php#produtos">Produtos</a>
+                                        <br><a href="colabore.php#doacoes">Doações</a>
+                                        <br><a href="colabore.php#nova_sede">Nova Sede</a>
                                     </div>
                                 </div>
                                 <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3 divisor">
-                                    <a href="contato.html">Contato</a>
+                                    <a href="contato.php">Contato</a>
                                 </div>
                                 <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3 redes_sociais">
                                     <a target="_blank" href="https://www.fb.com/aovivoeemcores"><img src="imagens/facebook.png" class="icones"></a>

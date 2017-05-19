@@ -61,7 +61,7 @@
     max-width: 150px;
 }
 
-a:visited, a:focus, a:hover, a:active {
+#email > a:visited, a:focus, a:hover, a:active {
     text-decoration: none;
     color: #337ab7;
 }
