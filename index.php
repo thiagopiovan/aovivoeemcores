@@ -93,7 +93,7 @@
                                 <li><a href="colabore.php#nova_sede">Nova Sede</a></li>
                             </ul>
                         </li>
-                        <li><a href="contato.php">Contato</a></li>
+                        <li><a href="contato.html">Contato</a></li>
                     </ul>
                     
                     <!-- Right Align-->
@@ -440,7 +440,7 @@
                                     </div>
                                 </div>
                                 <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3 divisor">
-                                    <a href="contato.php">Contato</a>
+                                    <a href="contato.html">Contato</a>
                                 </div>
                                 <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3 redes_sociais">
                                     <a target="_blank" href="https://www.fb.com/aovivoeemcores"><img src="imagens/facebook.png" class="icones"></a>
