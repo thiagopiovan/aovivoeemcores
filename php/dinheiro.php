@@ -5,7 +5,7 @@
     $result = $conn->query($sql);
     $row = $result->fetch_assoc();
     $total = $row["soma"];
-    $atual=$total/250;
+    $atual=$total/300;
 
     $conn->close();
 ?>

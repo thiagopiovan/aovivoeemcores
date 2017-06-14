@@ -8,6 +8,18 @@
     } 
 }
 
+@media (min-width : 992px) {
+    .video {
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .centralizar {
+        position: inherit;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}
+
 /* Vídeo */
 
 .titulo-video {
@@ -28,13 +40,6 @@
     margin: 35px 0px 0px 25px;
     background-color: #fcb17e;
     height: auto;
-}
-
-@media (min-width : 992px) {
-    .video {
-        top: 50%;
-        transform: translateY(-50%);
-    }
 }
 
 /* Depoimento */

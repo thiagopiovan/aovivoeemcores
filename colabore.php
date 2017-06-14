@@ -126,7 +126,7 @@
                 <div class="col-xs-12 col-sm-6 tabela_filho pb texto_sede">
                     <div class="col-xs-12 text-justify">
                         <p>&emsp;&emsp;O Projeto Social Ao Vivo e em Cores está com um projeto executivo de construção de uma sede no Campus da Unesp em Bauru. O terreno inclusive já foi aprovado pelas autoridades do Campus, assim, membros da organização estão finalizando o projeto e captando recursos.</p>
-                        <p>&emsp;&emsp;Você pode contribuir doando para nós através do botão do pagseguro abaixo. Haverá um logo do nosso projeto na fachada composto pelo nome das pessoas que doaram R$100,00 ou mais. Sinta-se parte desse empreendimento e ajude-nos a atingir a meta de R$25.000,00 para construir mais esse sonho conosco!</p>
+                        <p>&emsp;&emsp;Você pode contribuir doando para nós através do botão do pagseguro abaixo. Haverá um logo do nosso projeto na fachada composto pelo nome das pessoas que doaram R$100,00 ou mais. Sinta-se parte desse empreendimento e ajude-nos a atingir a meta de R$30.000,00 para construir mais esse sonho!</p>
                     </div>
                     <div class="col-xs-12">
                         <div class="col-xs-12 col-sm-5 text-center">
@@ -146,7 +146,7 @@
                                     <?php echo number_format($atual, 1, ",", "."); ?>%
                                 </div>
                             </div>
-                            <div class="text-center">R$<?php echo number_format($total, 2, ",", "."); ?></div>
+                            <div class="text-center">R$<?php echo number_format($total, 2, ",", "."); ?> de R$30.000,00</div>
                         </div>
                     </div>
                 </div>

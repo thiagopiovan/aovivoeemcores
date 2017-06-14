@@ -203,15 +203,17 @@
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 vd_margem">
                     <div class="titulo-depoimento">Depoimento</div>
                     <div class="conteudo-depoimento vd sombra">
-                        <p><?php echo $descricao; ?></p>
-                        <div class="row">
-                            <div class="col-xs-12 col-sm-5 imagem-depoimento">
-                                <?php echo "<img src=\"".$imagem."\" class=\"img-circle img-responsive pull-right\">"; ?>
-                            </div>
-                            <div class="col-xs-12 col-sm-7">
-                                <div class="pull-left pessoa-depoimento">
-                                    <p><b><?php echo $nome; ?></b>
-                                    <br><?php echo $cargo; ?></p>
+                        <div class="centralizar">
+                            <p><?php echo $descricao; ?></p>
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-5 imagem-depoimento">
+                                    <?php echo "<img src=\"".$imagem."\" class=\"img-circle img-responsive pull-right\">"; ?>
+                                </div>
+                                <div class="col-xs-12 col-sm-7">
+                                    <div class="pull-left pessoa-depoimento">
+                                        <p><b><?php echo $nome; ?></b>
+                                        <br><?php echo $cargo; ?></p>
+                                    </div>
                                 </div>
                             </div>
                         </div>

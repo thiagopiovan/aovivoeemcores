@@ -13,7 +13,7 @@
         $result = $conn->query($sql);
         
         $subject = "[AO VIVO] - Confirmação de Doação";
-        $message = "Olá <b>".$nome."</b>,<br><br>Agradecemos imensamente sua contribuição de <b>R$".$valor.",00</b> para nossa futura sede. Nela terá um logo do nosso projeto composto pelo nome de todas as pessoas que nos ajudaram, dentre eles o seu será: <b>".$marca."</b>.<br><br>Atenciosamente,<br><br><b>Projeto Social Ao Vivo e em Cores</b>";
+        $message = "Olá <b>".$nome."</b>,<br><br>Agradecemos imensamente sua contribuição de <b>R$".number_format($valor, 1, ",", ".").",00</b> para nossa futura sede. Nela terá um logo do nosso projeto composto pelo nome de todas as pessoas que nos ajudaram, dentre eles o seu será: <b>".$marca."</b>.<br><br>Atenciosamente,<br><br><b>Projeto Social Ao Vivo e em Cores</b>";
     }
     
     if($_GET["n"]==2)
@@ -23,7 +23,7 @@
 
         $to      = $email;
         $subject = "[AO VIVO] - Confirmação de Doação";
-        $message = "Olá <b>".$nome."</b>,<br><br>Agradecemos imensamente sua contribuição de <b>R$".$valor.",00</b> para nossa futura sede.<br><br>Atenciosamente,<br><br><b>Projeto Social Ao Vivo e em Cores</b>";
+        $message = "Olá <b>".$nome."</b>,<br><br>Agradecemos imensamente sua contribuição de <b>R$".number_format($valor, 1, ",", ".").",00</b> para nossa futura sede.<br><br>Atenciosamente,<br><br><b>Projeto Social Ao Vivo e em Cores</b>";
     }
 
     if($_GET["n"]==3)
@@ -35,7 +35,7 @@
         echo $marca;
         
         $subject = "[AO VIVO] - Confirmação de Doação";
-        $message = "Olá <b>".$nome."</b>,<br><br>Agradecemos imensamente a contribuição de <b>R$".$valor.",00</b> para nossa futura sede. Nela terá o logo do nosso projeto assim como o da sua empresa, <b>".$marca."</b>, que nos ajudou a construir este sonho.<br><br>Para tanto, pedimos que nos envie o logo da sua empresa vetorizado, por gentileza.<br><br>Atenciosamente,<br><br><b>Projeto Social Ao Vivo e em Cores</b>";
+        $message = "Olá <b>".$nome."</b>,<br><br>Agradecemos imensamente a contribuição de <b>R$".number_format($valor, 1, ",", ".")."</b> para nossa futura sede. Nela terá o logo do nosso projeto assim como o da sua empresa, <b>".$marca."</b>, que nos ajudou a construir este sonho.<br><br>Para tanto, pedimos que nos envie o logo da sua empresa vetorizado, por gentileza.<br><br>Atenciosamente,<br><br><b>Projeto Social Ao Vivo e em Cores</b>";
     }
     
     $to      = $email;
