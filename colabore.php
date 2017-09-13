@@ -41,6 +41,7 @@
     </head>
     <body>
         <?php
+            include_once("analyticstracking.php");
             include "php/dinheiro.php";
         ?>
         <!-- Navbar -->

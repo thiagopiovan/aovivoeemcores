@@ -39,6 +39,14 @@
         <link href="css/navbar.css" rel="stylesheet">
         <link href="css/rodape.css" rel="stylesheet">
         <link href="css/organizacao.css" rel="stylesheet">
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+            ga('create', 'UA-101378225-1', 'auto');
+            ga('send', 'pageview');
+        </script>
     </head>
     <body>
         <!-- Navbar -->
@@ -108,19 +116,6 @@
         <!-- Conteúdo -->
         <div class="container global">
             <div class="row-fluid">
-                <!--<div class="col-xs-12 titulos">
-                    <div class="row vcenter">
-                        <div class="col-xs-4 col-sm-5 titulo-esquerda">
-                            <div class="titulo-linha"></div>    
-                        </div>
-                        <div class="col-xs-4 col-sm-2 titulo-meio">
-                            <div class="titulo-pagina">Organização</div>
-                        </div>
-                        <div class="col-xs-4 col-sm-5 titulo-direita">
-                            <div class="titulo-linha"></div>    
-                        </div>
-                    </div>
-                </div>-->
                 <div class="col-xs-12 titulos">
                     <div class="row vcenter">
                         <div class="col-xs-5 col-sm-3 titulo-esquerda">
@@ -168,12 +163,12 @@
                 </div>
                 <div class="tabela_mae">
                     <div class="col-xs-12 col-sm-6 pb tabela_filho">
-                        <img src="imagens/areas.png" class="img-responsive">
+                        <img src="imagens/areas.jpeg" class="img-responsive">
                     </div>
                     <div class="col-xs-12 col-sm-6 pb tabela_filho">
-                        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-                            <div class="panel panel-default">
-                                <div class="panel-heading" role="tab" id="coordenacao">
+                        <div class="panel-group nucleos" id="accordion" role="tablist" aria-multiselectable="true">
+                            <div class="panel panel-default nucleos">
+                                <div class="panel-heading nucleos" role="tab" id="coordenacao">
                                     <h3 class="panel-title">
                                         <a role="button" data-toggle="collapse" data-parent="#accordion" href="#1" aria-expanded="true" aria-controls="1">
                                             <span class="more-less glyphicon glyphicon-plus-sign"></span>
@@ -183,27 +178,27 @@
                                 </div>
                                 <div id="1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="coordenacao">
                                     <div class="panel-body text-justify">
-                                        &emsp;&emsp;Elaborar plano estratégico para a gestão e revisar as metas mensalmente. Presidir as reuniões, cumprir e fazer cumprir o Regulamento, representar o Ao Vivo e em Cores em todas as solenidades às quais for convidado. Coordenar e supervisionar as realizações do Ao Vivo e em Cores de forma a dar suporte para a realização das mesmas.
+                                        Elaborar plano estratégico para a gestão e revisar as metas mensalmente. Presidir as reuniões, cumprir e fazer cumprir o Regulamento, representar o Ao Vivo e em Cores em todas as solenidades às quais for convidado. Coordenar e supervisionar as realizações do Ao Vivo e em Cores de forma a dar suporte para a realização das mesmas.
                                     </div>
                                 </div>
                             </div>
-                            <div class="panel panel-default">
-                                <div class="panel-heading" role="tab" id="artistico">
+                            <div class="panel panel-default nucleos">
+                                <div class="panel-heading nucleos" role="tab" id="artistico">
                                     <h3 class="panel-title">
                                          <a data-toggle="collapse" data-parent="#accordion" href="#2" aria-expanded="true" aria-controls="2">
                                              <i class="more-less glyphicon glyphicon-plus-sign"></i>
-                                             Área de Artístico
+                                             Área de Artístico 
                                         </a>
                                     </h3>
                                 </div>
                                 <div id="2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="artistico">
                                     <div class="panel-body">
-                                        Texto
+                                        O artístico realiza, em conjunto com oficinas, o sonho e criação, que é o primeiro contato com as crianças, conhecendo sua personalidade, seus gostos e anseios. Com isso, a área desenvolve o processo criativo das artes, colocando sonhos nas paredes.
                                     </div>
                                 </div>
                             </div>
-                            <div class="panel panel-default">
-                                <div class="panel-heading" role="tab" id="captacao">
+                            <div class="panel panel-default nucleos">
+                                <div class="panel-heading nucleos" role="tab" id="captacao">
                                     <h3 class="panel-title">
                                          <a data-toggle="collapse" data-parent="#accordion" href="#3" aria-expanded="true" aria-controls="3">
                                              <i class="more-less glyphicon glyphicon-plus-sign"></i>
@@ -213,12 +208,12 @@
                                 </div>
                                 <div id="3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="captacao">
                                     <div class="panel-body">
-                                        Texto
+                                        A área de Captação é responsável por buscar parcerias com empresas ou organizações que possuem valores semelhantes aos nossos e têm o interesse junto conosco de promover a mudança social que desejamos.
                                     </div>
                                 </div>
                             </div>
-                            <div class="panel panel-default">
-                                <div class="panel-heading" role="tab" id="comunica">
+                            <div class="panel panel-default nucleos">
+                                <div class="panel-heading nucleos" role="tab" id="comunica">
                                     <h3 class="panel-title">
                                          <a data-toggle="collapse" data-parent="#accordion" href="#4" aria-expanded="true" aria-controls="4">
                                              <i class="more-less glyphicon glyphicon-plus-sign"></i>
@@ -228,73 +223,88 @@
                                 </div>
                                 <div id="4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="comunica">
                                     <div class="panel-body">
-                                        Texto
+                                        A Comunicação promove e zela pela imagem do projeto. Isso é feito através da gestão de mídias, criação de campanhas de divulgação e produção de conteúdo próprio escrito e audiovisual.
                                     </div>
                                 </div>
                             </div>
-                            <div class="panel panel-default">
-                                <div class="panel-heading" role="tab" id="execucao">
+                            <div class="panel panel-default nucleos">
+                                <div class="panel-heading nucleos" role="tab" id="execucao">
                                     <h3 class="panel-title">
-                                         <a data-toggle="collapse" data-parent="#accordion" href="#5" aria-expanded="true" aria-controls="5">
-                                             <i class="more-less glyphicon glyphicon-plus-sign"></i>
-                                             Área de Execução
+                                        <a data-toggle="collapse" data-parent="#accordion" href="#5" aria-expanded="true" aria-controls="5">
+                                            <i class="more-less glyphicon glyphicon-plus-sign"></i>
+                                            Área de Execução
                                         </a>
                                     </h3>
                                 </div>
                                 <div id="5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="execucao">
                                     <div class="panel-body">
-                                        Texto
+                                        A área de execução é responsável por planejar exatamente o que será feito no dia da ação e pré-ação em relação às mudanças físicas no local da intervenção. Isso envolve a quantificação de tintas e materiais, planejamento de cronogramas e desenvolvimento de projetos, como parquinhos e hortas.
                                     </div>
                                 </div>
                             </div>
-                            <div class="panel panel-default">
-                                <div class="panel-heading" role="tab" id="externas">
+                            <div class="panel panel-default nucleos">
+                                <div class="panel-heading nucleos" role="tab" id="externas">
                                     <h3 class="panel-title">
-                                         <a data-toggle="collapse" data-parent="#accordion" href="#6" aria-expanded="true" aria-controls="6">
-                                             <i class="more-less glyphicon glyphicon-plus-sign"></i>
-                                             Área de Externas
+                                        <a data-toggle="collapse" data-parent="#accordion" href="#6" aria-expanded="true" aria-controls="6">
+                                            <i class="more-less glyphicon glyphicon-plus-sign"></i>
+                                            Área de Externas
                                         </a>
                                     </h3>
                                 </div>
                                 <div id="6" class="panel-collapse collapse" role="tabpanel" aria-labelledby="externas">
                                     <div class="panel-body">
-                                        Texto
+                                        A área de externas visa a expansão do projeto para outros campi da Unesp auxiliando para que tudo isso ocorra seguindo a missão, visão e valores do Ao Vivo e em Cores. Atua também no aumento do vínculo com a Unesp através de editais da PROEX.
                                     </div>
                                 </div>
                             </div>
-                            <div class="panel panel-default">
-                                <div class="panel-heading" role="tab" id="financas">
+                            <div class="panel panel-default nucleos">
+                                <div class="panel-heading nucleos" role="tab" id="financas">
                                     <h3 class="panel-title">
-                                         <a data-toggle="collapse" data-parent="#accordion" href="#7" aria-expanded="true" aria-controls="7">
-                                             <i class="more-less glyphicon glyphicon-plus-sign"></i>
-                                             Área de Finanças
+                                        <a data-toggle="collapse" data-parent="#accordion" href="#7" aria-expanded="true" aria-controls="7">
+                                            <i class="more-less glyphicon glyphicon-plus-sign"></i>
+                                            Área de Finanças
                                         </a>
                                     </h3>
                                 </div>
                                 <div id="7" class="panel-collapse collapse" role="tabpanel" aria-labelledby="financas">
                                     <div class="panel-body">
-                                        Texto
+                                        A área de finanças é responsável pela saúde financeira do projeto e pela transparência em todas as transações e gastos. Dentro da área fazemos: o controle financeiro do projeto, quantificações e orçamentos das refeições que são servidas durante as ações, compras para a ação e eventos, reembolsos e devoluções, e o controle e recebimento das bolsas de auxílio que o projeto recebe.
                                     </div>
                                 </div>
                             </div>
-                            <div class="panel panel-default">
-                                <div class="panel-heading" role="tab" id="oficinas">
+                            <div class="panel panel-default nucleos">
+                                <div class="panel-heading nucleos" role="tab" id="gp">
                                     <h3 class="panel-title">
-                                         <a data-toggle="collapse" data-parent="#accordion" href="#8" aria-expanded="true" aria-controls="8">
-                                             <i class="more-less glyphicon glyphicon-plus-sign"></i>
-                                             Área de Oficinas
+                                        <a data-toggle="collapse" data-parent="#accordion" href="#8" aria-expanded="true" aria-controls="7">
+                                            <i class="more-less glyphicon glyphicon-plus-sign"></i>
+                                            Área de Gestão de Pessoas
                                         </a>
                                     </h3>
                                 </div>
-                                <div id="8" class="panel-collapse collapse" role="tabpanel" aria-labelledby="oficinas">
+                                <div id="8" class="panel-collapse collapse" role="tabpanel" aria-labelledby="gp">
                                     <div class="panel-body">
-                                        Texto
+                                        GP é responsável por promover a integração entre os membros de todas as outras vertentes do projeto. Desta forma, por meio de diálogos, dinâmicas e intervenções, atua para garantir a aproximação entre os integrantes da equipe, o fluxo da comunicação interna e o compreendimento mútuo, visando a harmonização do ambiente organizacional para que assim todos possam dar o melhor de si nos projetos solidários.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default nucleos">
+                                <div class="panel-heading nucleos" role="tab" id="oficinas">
+                                    <h3 class="panel-title">
+                                        <a data-toggle="collapse" data-parent="#accordion" href="#9" aria-expanded="true" aria-controls="8">
+                                            <i class="more-less glyphicon glyphicon-plus-sign"></i>
+                                            Área de Oficinas
+                                        </a>
+                                    </h3>
+                                </div>
+                                <div id="9" class="panel-collapse collapse" role="tabpanel" aria-labelledby="oficinas">
+                                    <div class="panel-body">
+                                        É a área do Ao Vivo e em Cores responsável pelo contato com as crianças. Promove-se por meio de conversas, oficinas e brincadeiras, um ambiente mais agradável e propício para o envolvimento com o projeto. Oferecendo uma maior identidade para as crianças na escola, ressalta-se a importância do espaço público.
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div> 
+                </div>
                 <div class="col-xs-12 titulos">
                     <div class="row vcenter">
                         <div class="col-xs-5 col-sm-3 titulo-esquerda">
@@ -302,6 +312,464 @@
                         </div>
                         <div class="col-xs-7 col-sm-9 titulo-direita">
                             <div class="titulo-linha"></div>   
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12">
+                    <div class="col-xs-12 col-sm-8 col-sm-offset-2 pb">
+                        <img src="imagens/gestao_atual.jpg" class="img-responsive sombra">
+                    </div>
+                </div>
+                <div class="col-xs-12">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-4 col-sm-offset-4">
+                                    <div class="carousel slide media-carousel" id="org">
+                                        <div class="carousel-inner text-center">
+                                            <div class="item titulo_panel active" id="coordenacao">
+                                                <a href="#">Coordenação Geral</a>
+                                            </div>
+                                            <div class="item titulo_panel" id="artistico">
+                                                <a href="#">Artístico</a>
+                                            </div>
+                                            <div class="item titulo_panel" id="captacao">
+                                                <a href="#">Captação de Recursos</a>
+                                            </div>
+                                            <div class="item titulo_panel" id="comunicacao">
+                                                <a href="#">Comunicação</a>
+                                            </div>
+                                            <div class="item titulo_panel" id="execucao">
+                                                <a href="#">Execução</a>
+                                            </div>
+                                            <div class="item titulo_panel" id="externas">
+                                                <a href="#">Externas</a>
+                                            </div>
+                                            <div class="item titulo_panel" id="financas">
+                                                <a href="#">Finanças</a>
+                                            </div>
+                                            <div class="item titulo_panel" id="gp">
+                                                <a href="#">Gestão de Pessoas</a>
+                                            </div>
+                                            <div class="item titulo_panel" id="oficinas">
+                                                <a href="#">Oficinas</a>
+                                            </div>
+                                        </div>
+                                        <a class="left carousel-control" href="#org" role="button" data-slide="prev">
+                                            <span class="glyphicon glyphicon-chevron-left seta" aria-hidden="true"></span>
+                                        </a>
+                                        <a class="right carousel-control" href="#org" role="button" data-slide="next">
+                                            <span class="glyphicon glyphicon-chevron-right seta" aria-hidden="true"></span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel-body">
+                            <div id="conteudo_coordenacao">
+                                <div class="row">
+                                    <div class="col-xs-6 col-sm-4 col-md-2 col-md-offset-3 pt">
+                                        <img src="imagens/2012/victor_torres_witzler.jpg" class="img-circle img-responsive membros_atuais">
+                                        <div class="text-center pt">
+                                            Victor Torres Witlzer
+                                            <br>
+                                            Idealizador
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-6 col-sm-4 col-md-2 pt">
+                                        <img src="imagens/2012/jose_zono.jpg" class="img-circle img-responsive membros_atuais">
+                                        <div class="text-center pt">
+                                            José Augusto Nora Zono
+                                            <br>
+                                            Idealizador
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-6 col-sm-4 col-md-2 pt">
+                                        <img src="imagens/2012/renata_lunardi.jpg" class="img-circle img-responsive membros_atuais">
+                                        <div class="text-center pt">
+                                            Renata Lunardi
+                                            <br>
+                                            Idealizadora
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="conteudo_artistico">
+                                <div class="row">
+                                    <div class="col-xs-6 col-sm-3 col-md-2 pt">
+                                        <img src="imagens/2012/anderson_bernardo.jpg" class="img-circle img-responsive membros">
+                                        <div class="text-center pt">
+                                            Anderson Bernardo
+                                            <br>
+                                            Cargo
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-6 col-sm-3 col-md-2 pt">
+                                        <img src="imagens/2012/barbara_zaneti.jpg" class="img-circle img-responsive membros">
+                                        <div class="text-center pt">
+                                            Barbara Zaneti
+                                            <br>
+                                            Cargo
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-6 col-sm-3 col-md-2 pt">
+                                        <img src="imagens/2012/bruno_nakazone.jpg" class="img-circle img-responsive membros">
+                                        <div class="text-center pt">
+                                            Bruno Nakazone
+                                            <br>
+                                            Cargo
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-6 col-sm-3 col-md-2 pt">
+                                        <img src="imagens/2012/felipe_boi.jpg" class="img-circle img-responsive membros">
+                                        <div class="text-center pt">
+                                            Felipe Boiça
+                                            <br>
+                                            Cargo
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-6 col-sm-3 col-md-2 pt">
+                                        <img src="imagens/2012/fernanda_azevedo.jpg" class="img-circle img-responsive membros">
+                                        <div class="text-center pt">
+                                            Fernanda Azevedo
+                                            <br>
+                                            Cargo
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-6 col-sm-3 col-md-2 pt">
+                                        <img src="imagens/2012/flavia_aguiar.jpg" class="img-circle img-responsive membros">
+                                        <div class="text-center pt">
+                                            Flávia Aguiar
+                                            <br>
+                                            Cargo
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-6 col-sm-3 col-md-2 pt">
+                                        <img src="imagens/2012/guilherme_lopes.jpg" class="img-circle img-responsive membros">
+                                        <div class="text-center pt">
+                                            Guilherme Tavernaro Lopes
+                                            <br>
+                                            Cargo
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-6 col-sm-3 col-md-2 pt">
+                                        <img src="imagens/2012/juliana.jpg" class="img-circle img-responsive membros">
+                                        <div class="text-center pt">
+                                            Juliana Soares
+                                            <br>
+                                            Cargo
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-6 col-sm-3 col-md-2 pt">
+                                        <img src="imagens/2012/leonardo_carbonieiri.jpg" class="img-circle img-responsive membros">
+                                        <div class="text-center pt">
+                                            Leonardo Carbonieri
+                                            <br>
+                                            Presidente da XVII SEMENG
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-6 col-sm-3 col-md-2 pt">
+                                        <img src="imagens/2012/leonardo_elias.jpg" class="img-circle img-responsive membros">
+                                        <div class="text-center pt">
+                                            Leonardo Elias
+                                            <br>
+                                            Cargo
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-6 col-sm-3 col-md-2 pt">
+                                        <img src="imagens/2012/luiz_felipe_barbieri.jpg" class="img-circle img-responsive membros">
+                                        <div class="text-center pt">
+                                            Luiz Felipe Barbieri
+                                            <br>
+                                            Cargo
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-6 col-sm-3 col-md-2 pt">
+                                        <img src="imagens/2012/manuela_bassette.jpg" class="img-circle img-responsive membros">
+                                        <div class="text-center pt">
+                                            Manuela Bassette
+                                            <br>
+                                            Cargo
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-6 col-sm-3 col-md-2 pt">
+                                        <img src="imagens/2012/mariana_campeti_cuoghi.jpg" class="img-circle img-responsive membros">
+                                        <div class="text-center pt">
+                                            Mariana Campeti Coughi
+                                            <br>
+                                            Cargo
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-6 col-sm-3 col-md-2 pt">
+                                        <img src="imagens/2012/mariana_plaza.jpg" class="img-circle img-responsive membros">
+                                        <div class="text-center pt">
+                                            Mariana Plaza
+                                            <br>
+                                            Cargo
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-6 col-sm-3 col-md-2 pt">
+                                        <img src="imagens/2012/murillo_poletto.jpg" class="img-circle img-responsive membros">
+                                        <div class="text-center pt">
+                                            Murillo Poletto
+                                            <br>
+                                            Cargo
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-6 col-sm-3 col-md-2 pt">
+                                        <img src="imagens/2012/pedro_tofik.jpg" class="img-circle img-responsive membros">
+                                        <div class="text-center pt">
+                                            Pedro Tofik
+                                            <br>
+                                            Cargo
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-6 col-sm-3 col-md-2 pt">
+                                        <img src="imagens/2012/prescila_junqueira_di_salvo.jpg" class="img-circle img-responsive membros">
+                                        <div class="text-center pt">
+                                            Prescila Junqueira Di Salvo
+                                            <br>
+                                            Cargo
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-6 col-sm-3 col-md-2 pt">
+                                        <img src="imagens/2012/rayssa_saidel_cortez.jpg" class="img-circle img-responsive membros">
+                                        <div class="text-center pt">
+                                            Rayssa Saidel Cortez
+                                            <br>
+                                            Cargo
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-6 col-sm-3 col-md-2 pt">
+                                        <img src="imagens/2012/renan_luis_fragelli.jpg" class="img-circle img-responsive membros_atuais">
+                                        <div class="text-center pt">
+                                            Renan Luis Fragelli
+                                            <br>
+                                            Cargo
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-6 col-sm-3 col-md-2 pt">
+                                        <img src="imagens/2012/rodrigo_shoiti_mantovani_takano.jpg" class="img-circle img-responsive membros_atuais">
+                                        <div class="text-center pt">
+                                            Rodrigo Shoiti Mantovani Takano
+                                            <br>
+                                            Cargo
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-6 col-sm-3 col-md-2 pt">
+                                        <img src="imagens/2012/tami_timbo.jpg." class="img-circle img-responsive membros_atuais">
+                                        <div class="text-center pt">
+                                            Tami Timbó
+                                            <br>
+                                            Cargo
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-6 col-sm-3 col-md-2 pt">
+                                        <img src="imagens/2012/thiago_piovan.jpg" class="img-circle img-responsive membros_atuais">
+                                        <div class="text-center pt">
+                                            Thiago Piovan
+                                            <br>
+                                            Perspectiva Futura
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="conteudo_captacao">
+                                <div class="row">
+                                    <div class="col-xs-6 col-sm-4 col-md-2 col-md-offset-3 pt">
+                                        <img src="imagens/2012/victor_torres_witzler.jpg" class="img-circle img-responsive membros_atuais">
+                                        <div class="text-center pt">
+                                            Victor Torres Witlzer
+                                            <br>
+                                            Idealizador
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-6 col-sm-4 col-md-2 pt">
+                                        <img src="imagens/2012/jose_zono.jpg" class="img-circle img-responsive membros_atuais">
+                                        <div class="text-center pt">
+                                            José Augusto Nora Zono
+                                            <br>
+                                            Idealizador
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-6 col-sm-4 col-md-2 pt">
+                                        <img src="imagens/2012/renata_lunardi.jpg" class="img-circle img-responsive membros_atuais">
+                                        <div class="text-center pt">
+                                            Renata Lunardi
+                                            <br>
+                                            Idealizadora
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="conteudo_comunicacao">
+                                <div class="row">
+                                    <div class="col-xs-6 col-sm-4 col-md-2 col-md-offset-3 pt">
+                                        <img src="imagens/2012/victor_torres_witzler.jpg" class="img-circle img-responsive membros_atuais">
+                                        <div class="text-center pt">
+                                            Victor Torres Witlzer
+                                            <br>
+                                            Idealizador
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-6 col-sm-4 col-md-2 pt">
+                                        <img src="imagens/2012/jose_zono.jpg" class="img-circle img-responsive membros_atuais">
+                                        <div class="text-center pt">
+                                            José Augusto Nora Zono
+                                            <br>
+                                            Idealizador
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-6 col-sm-4 col-md-2 pt">
+                                        <img src="imagens/2012/renata_lunardi.jpg" class="img-circle img-responsive membros_atuais">
+                                        <div class="text-center pt">
+                                            Renata Lunardi
+                                            <br>
+                                            Idealizadora
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="conteudo_execucao">
+                                <div class="row">
+                                    <div class="col-xs-6 col-sm-4 col-md-2 col-md-offset-3 pt">
+                                        <img src="imagens/2012/victor_torres_witzler.jpg" class="img-circle img-responsive membros_atuais">
+                                        <div class="text-center pt">
+                                            Victor Torres Witlzer
+                                            <br>
+                                            Idealizador
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-6 col-sm-4 col-md-2 pt">
+                                        <img src="imagens/2012/jose_zono.jpg" class="img-circle img-responsive membros_atuais">
+                                        <div class="text-center pt">
+                                            José Augusto Nora Zono
+                                            <br>
+                                            Idealizador
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-6 col-sm-4 col-md-2 pt">
+                                        <img src="imagens/2012/renata_lunardi.jpg" class="img-circle img-responsive membros_atuais">
+                                        <div class="text-center pt">
+                                            Renata Lunardi
+                                            <br>
+                                            Idealizadora
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="conteudo_externas">
+                                <div class="row">
+                                    <div class="col-xs-6 col-sm-4 col-md-2 col-md-offset-3 pt">
+                                        <img src="imagens/2012/victor_torres_witzler.jpg" class="img-circle img-responsive membros_atuais">
+                                        <div class="text-center pt">
+                                            Victor Torres Witlzer
+                                            <br>
+                                            Idealizador
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-6 col-sm-4 col-md-2 pt">
+                                        <img src="imagens/2012/jose_zono.jpg" class="img-circle img-responsive membros_atuais">
+                                        <div class="text-center pt">
+                                            José Augusto Nora Zono
+                                            <br>
+                                            Idealizador
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-6 col-sm-4 col-md-2 pt">
+                                        <img src="imagens/2012/renata_lunardi.jpg" class="img-circle img-responsive membros_atuais">
+                                        <div class="text-center pt">
+                                            Renata Lunardi
+                                            <br>
+                                            Idealizadora
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="conteudo_financas">
+                                <div class="row">
+                                    <div class="col-xs-6 col-sm-4 col-md-2 col-md-offset-3 pt">
+                                        <img src="imagens/2012/victor_torres_witzler.jpg" class="img-circle img-responsive membros_atuais">
+                                        <div class="text-center pt">
+                                            Victor Torres Witlzer
+                                            <br>
+                                            Idealizador
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-6 col-sm-4 col-md-2 pt">
+                                        <img src="imagens/2012/jose_zono.jpg" class="img-circle img-responsive membros_atuais">
+                                        <div class="text-center pt">
+                                            José Augusto Nora Zono
+                                            <br>
+                                            Idealizador
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-6 col-sm-4 col-md-2 pt">
+                                        <img src="imagens/2012/renata_lunardi.jpg" class="img-circle img-responsive membros_atuais">
+                                        <div class="text-center pt">
+                                            Renata Lunardi
+                                            <br>
+                                            Idealizadora
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="conteudo_gp">
+                                <div class="row">
+                                    <div class="col-xs-6 col-sm-4 col-md-2 col-md-offset-3 pt">
+                                        <img src="imagens/2012/victor_torres_witzler.jpg" class="img-circle img-responsive membros_atuais">
+                                        <div class="text-center pt">
+                                            Victor Torres Witlzer
+                                            <br>
+                                            Idealizador
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-6 col-sm-4 col-md-2 pt">
+                                        <img src="imagens/2012/jose_zono.jpg" class="img-circle img-responsive membros_atuais">
+                                        <div class="text-center pt">
+                                            José Augusto Nora Zono
+                                            <br>
+                                            Idealizador
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-6 col-sm-4 col-md-2 pt">
+                                        <img src="imagens/2012/renata_lunardi.jpg" class="img-circle img-responsive membros_atuais">
+                                        <div class="text-center pt">
+                                            Renata Lunardi
+                                            <br>
+                                            Idealizadora
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="conteudo_oficinas">
+                                <div class="row">
+                                    <div class="col-xs-6 col-sm-4 col-md-2 col-md-offset-3 pt">
+                                        <img src="imagens/2012/victor_torres_witzler.jpg" class="img-circle img-responsive membros_atuais">
+                                        <div class="text-center pt">
+                                            Victor Torres Witlzer
+                                            <br>
+                                            Idealizador
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-6 col-sm-4 col-md-2 pt">
+                                        <img src="imagens/2012/jose_zono.jpg" class="img-circle img-responsive membros_atuais">
+                                        <div class="text-center pt">
+                                            José Augusto Nora Zono
+                                            <br>
+                                            Idealizador
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-6 col-sm-4 col-md-2 pt">
+                                        <img src="imagens/2012/renata_lunardi.jpg" class="img-circle img-responsive membros_atuais">
+                                        <div class="text-center pt">
+                                            Renata Lunardi
+                                            <br>
+                                            Idealizadora
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -313,6 +781,22 @@
                         <div class="col-xs-5 col-sm-3 titulo-direita">
                             <div class="titulo-pagina">Expansão</div>
                         </div>
+                    </div>
+                </div>
+                <div class="row-fluid tabela_mae">
+                    <div class="col-xs-12 col-sm-6 pb tabela_filho">
+                        <img src="imagens/2012-1.png" class="img-responsive sombra">
+                    </div>
+                    <div class="col-xs-12 col-sm-6 pb tabela_filho text-justify">
+                        O projeto surgiu na XVII Semana da Engenharia de Bauru (SEMENG), e seus idealizadores foram José Augusto Nora Zono, Renata Lunardi e Victor Torres Witzler. Sua ação inaugural ocorreu no Parque Vitória Régia, principal cartão postal de Bauru, onde com muita tinta e alegria voluntários universitários deram uma nova cara para o espaço. Somado a isso, contou com música ao vivo em um dia de recreação para crianças e atividades para a população.
+                    </div>
+                </div>
+                <div class="row-fluid tabela_mae">
+                    <div class="col-xs-12 col-sm-6 col-sm-push-6 pb tabela_filho">
+                        <img src="imagens/2012-1.png" class="img-responsive sombra">
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-sm-pull-6 pb tabela_filho text-justify">
+                        O projeto surgiu na XVII Semana da Engenharia de Bauru (SEMENG), e seus idealizadores foram José Augusto Nora Zono, Renata Lunardi e Victor Torres Witzler. Sua ação inaugural ocorreu no Parque Vitória Régia, principal cartão postal de Bauru, onde com muita tinta e alegria voluntários universitários deram uma nova cara para o espaço. Somado a isso, contou com música ao vivo em um dia de recreação para crianças e atividades para a população.
                     </div>
                 </div>
             </div>
@@ -528,5 +1012,6 @@
         <script src="js/global.js"></script>
         <script src="js/areas.js"></script>
         <script src="js/rodape.js"></script>
+        <script src="js/organizacao.js"></script>
     </body>
 </html>
